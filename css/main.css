@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+    url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('../fonts/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy';
+    color: #070707;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gilroy';
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+h2{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+}
+h3{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #828282;
+}
+.container {
+    margin-right: 250px;
+    width: 940px;
+     /*позиционирование по центру*/
+     margin: 0 auto;
+     padding-top: 33px;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-right: 156px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #828282;
+    white-space: nowrap;
+}
+.menu li a:hover{
+    color: #070707;
+}
+.line{
+    margin-top: 31px;
+    color: #828282;
+    width: 940.6px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.offer{
+    margin-top: 40px;
+}
+.name p{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-left: 297px;
+    white-space: nowrap;
+    margin-top: 60px;
+}
+.name{
+    display: flex;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.lang{
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 0;
+}
+.lang p a{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+.lang p{
+    color: black;
+}
+
+.btn-lang{
+    transform: rotate(270deg);
+    margin-right: auto;
+}
+.about{
+    margin-top: 104px;
+    background: #F6F6F6;
+    height: 506px;
+}
+.block-1{
+    margin-top: 80px;
+    text-align: center;
+}
+.block-1 p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 17px;
+}
+
+.skills{
+    margin-top: 91px;
+}
+.block-2{
+    text-align: center;
+}
+.block-2 p{
+    margin-top: 69px;
+}
+.programs{
+    margin-top: 86px;
+    display: flex;
+    text-align: center;
+
+}
+.program{
+    text-align: center;
+    margin-right: 100px;
+    display: block;
+    padding: 0;
+}
+.program h3{
+    margin-top: 24px;
+}
+.stars{
+    margin-top: 24px;
+    white-space: nowrap;
+}
+.star{
+    margin-right: 9px;
+    width: 26px;
+    border-radius: 1px;
+}
+.portfolio{
+    margin-top: 110px;
+    background: #F6F6F6;
+}
+.block-3{
+    margin-top: 80px;
+    text-align: center;
+    padding: 0;
+    height: 2050px;
+}
+.work{
+    margin-top: 70px;
+    padding: 0;
+}
+.work img{
+    width: 936px;
+    margin-bottom: 30px;
+}
+.work a{
+    text-decoration-line: underline;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.block-4{
+    margin-top: 114px;
+    text-align: center;
+}
+.block-4 p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    width: 180px;
+    padding: 13px 30px;
+    color: white;
+    background: #070707;
+    border-radius: 20px;
+}
+.contacts{
+    margin-bottom: 80px;
+}
+.messages{
+    margin-top: 86px;
+    display: flex;
+    padding: 0;
+    margin-left: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 300px;
+}
+.message{
+
+    display: block;
+    margin-right: 61px;
+    border: 0px solid #070707;
+    color:#070707;
+    
+}
+.end{
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+@media only screen and (max-width: 375px) {
+    section h3{
+         font-size: 25px;
+    }
+ }
